@@ -1,0 +1,24 @@
+.menu{
+    max-width: 1440px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    padding: 1rem 3rem;
+    margin: 0 auto;
+    gap: 40px;
+    align-items: center;
+
+    li{
+        a{
+            color: rgb(25, 97, 253);
+        }
+    }
+}
+.menu>li:nth-child(1){
+    margin-right: auto;
+    a{
+        font-size: 2rem;
+        font-weight: 500;
+        text-transform: uppercase;
+   }
+}

@@ -1,0 +1,95 @@
+.achievements{
+    hr{
+        border: 1px solid rgba(0, 0, 0, 0.107);
+    }
+    h2{
+        text-align: center;
+        font-weight: 700;
+        font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        color: #585a73;
+    }
+}
+.card__achievement{
+    margin: 2rem;
+    h3{
+        color: rgb(25, 97, 253);
+        text-align: center;
+        font-size: 3rem;
+        padding: 0 1.75rem;
+    }
+    p{
+        text-align: center;
+        font-family: 500px;
+        font-size: 1.5rem;
+    }
+}
+.achievement_second{
+    border: 2px solid rgba(0, 0, 0, 0.107);
+    border-top: 0;
+    border-bottom: 0;
+}
+.card__services{
+    width: 425px;
+    background-color: white;
+    border-radius: 15px;
+    padding: 3rem 0;
+    letter-spacing: 0.75px;
+
+    .card{
+        margin: auto;
+        max-width: 245px;    
+        background-color: white;
+    }
+    h3{
+        color: black;
+        text-align: center;
+        font-size: 1.75rem;
+        padding: 0 1.75rem;
+        padding: 1rem 2rem;
+        font-weight: 700;
+    }
+    p{
+        text-align: center;
+        font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        font-size: 1.25rem;
+        font-weight: 400;
+    }
+}
+.wrapper{
+    padding: 3rem 0;
+}
+.services{
+    hr{
+        border: 1px solid rgba(0, 0, 0, 0.107);
+        margin-bottom: 1rem;
+    }
+    h2{
+        text-align: center;
+        font-weight: 700;
+        font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        color: #585a73;
+        padding-bottom: 1rem;
+    }
+}
+.plan{
+    &__text{
+        padding-top: 3.5rem;
+        max-width: 495px;
+        h3{
+            font-weight: 700;
+            font-family:'Segoe UI', Tahoma, Geneva, Verdana,    sans-serif;
+            color: #585a73;
+            font-size: 2.75rem;
+            margin-bottom: 1.75rem;
+        }
+        p{
+            font-family:system-ui, -apple-system,   BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu,   Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+            font-size: 1.75rem;
+            font-weight: 400;
+            margin-bottom: 3.25rem;
+        }
+        .btn{
+            padding: 0.8rem 4rem;
+        }
+    }
+}

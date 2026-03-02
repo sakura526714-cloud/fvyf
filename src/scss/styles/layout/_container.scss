@@ -1,0 +1,66 @@
+.container{
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 1rem 3rem;
+}
+.hero{
+    height: 545px;
+    background-image: url(../../../img/hero.png);
+    background-repeat: no-repeat;
+    background-size: 60%;
+    background-position-x: right;
+    align-content: start;
+
+    p{
+        font-size: clamp(1rem, 4vw, 1.5rem);
+    }
+    .btn{
+        margin-top: 2rem;
+        padding: 0.75rem 3rem;
+    }
+}
+.wrapper{
+    background-color: #f1f0f7;
+}
+.clouds{
+    background-image: url(../../../img/Blue-sky-with-clouds-1550x804.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    letter-spacing: 0.5px;
+    h3{
+        color: white;
+        text-align: center;
+        font-size: 3rem;
+        padding: 2rem 0;
+    }
+    p{
+        color: white;
+        text-align: center;
+        font-size: 1.5rem;
+        padding-bottom: 2rem;
+    }
+}
+footer{
+    background-color: #3f4f6b;
+    margin: 0;
+    background-size: 100%;
+    height: 80px;
+    hr{
+        width: 1px;
+        margin-top: 15px;
+        border-color: #3f4f6b55;
+    }
+    p{
+        padding-top: 0.75rem;
+        width: 21rem;
+    }
+}
+.ending>p:nth-child(1){
+       grid-column: span 2/1;
+}
+.ending>p:nth-child(2){
+       grid-column: span 2/11;
+}
+.ending>p:nth-child(3){
+       grid-column: span 2/13.00;
+}
